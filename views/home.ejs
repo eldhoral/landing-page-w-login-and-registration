@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="/css/home.css">
+
+        <title>Landing Page</title>
+    </head>
+    <body>
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+        </a>
+        
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="/home" class="nav__logo">Landing Page</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#share" class="nav__link">Share</a></li>
+                        <li class="nav__item"><a href="#decoration" class="nav__link">Decorations</a></li>
+                        <li class="nav__item"><a href="#accessory" class="nav__link">Accessory</a></li>
+
+                        <li><i class='bx bx-toggle-left change-theme' id="theme-button"></i></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--========== HOME ==========-->
+            <section class="home" id="home">
+                <div class="home__container bd-container bd-grid">
+                    <div class="home__img">
+                        <img src="assets/images/home/home1.gif" alt="">
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home__title">Hi, this is our landing page</h1>
+                        <p class="home__description">Customize with Node.js, Express.JS, MySQL. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <a href="#" class="button" id="button-popup">Pop Up!</a>
+                    </div>   
+                </div>
+            </section>
+
+            <!--========== SHARE ==========-->
+            <section class="share section bd-container" id="share">
+                <div class="share__container bd-grid">
+                    <div class="share__data">
+                        <h2 class="section-title-center">Usage of this website</h2>
+                        <p class="share__description">This website can be use for Landing Page, Profile Company, Business, Registration Form and Many more!. Easy customizable and Easy access. </p>
+                        <a href="#" class="button" id="button-popup1">Pop Up 2</a>
+                    </div>
+
+                    <div class="share__img">
+                        <img src="assets/images/home/home2.gif" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <!--========== DECORATION ==========-->
+            <section class="decoration section bd-container" id="decoration">
+                <h2 class="section-title">Our Social Media <br> Contact Us!</h2>
+                <div class="decoration__container bd-grid">
+                    <div class="decoration__data">
+                        <img src="assets/images/home/instagram.png" alt="" class="decoration__img">
+                        <h3 class="decoration__title">Instagram</h3>
+                        <a href="#" class="button button-link">Click Me</a>
+                    </div>
+
+                    <div class="decoration__data">
+                        <img src="assets/images/home/github1.png" alt="" class="decoration__img">
+                        <h3 class="decoration__title">Github</h3>
+                        <a href="#" class="button button-link">Hey, Here</a>
+                    </div>
+
+                    <div class="decoration__data">
+                        <img src="assets/images/home/linkedin1.png" alt="" class="decoration__img">
+                        <h3 class="decoration__title">Linkedin</h3>
+                        <a href="#" class="button button-link">C'mon</a>
+                    </div>
+                </div>
+            </section>
+
+            <!--========== ACCESSORIES ==========-->
+            <!--<section class="accessory section bd-container" id="accessory">
+                <h2 class="section-title">New Christmas <br> Accessories</h2>
+
+                <div class="accessory__container bd-grid">
+                    <div class="accessory__content">
+                        <img src="assets/images/home/accessory1.png" alt="" class="accessory__img">
+                        <h3 class="accessory__title">Snow Globe</h3>
+                        <span class="accessory__category">Accessory</span>
+                        <span class="accessory__preci">$9.45</span>
+                        <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a>
+                    </div>
+
+                    <div class="accessory__content">
+                        <img src="assets/images/home/accessory2.png" alt="" class="accessory__img">
+                        <h3 class="accessory__title">Candy</h3>
+                        <span class="accessory__category">Accessory</span>
+                        <span class="accessory__preci">$2.52</span>
+                        <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a>
+                    </div>
+
+                    <div class="accessory__content">
+                        <img src="assets/images/home/accessory3.png" alt="" class="accessory__img">
+                        <h3 class="accessory__title">Angel</h3>
+                        <span class="accessory__category">Accessory</span>
+                        <span class="accessory__preci">$13.15</span>
+                        <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a>
+                    </div>
+
+                    <div class="accessory__content">
+                        <img src="assets/images/home/accessory4.png" alt="" class="accessory__img">
+                        <h3 class="accessory__title">Sphere</h3>
+                        <span class="accessory__category">Accessory</span>
+                        <span class="accessory__preci">$4.25</span>
+                        <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a>
+                    </div>
+
+                    <div class="accessory__content">
+                        <img src="assets/images/home/accessory5.png" alt="" class="accessory__img">
+                        <h3 class="accessory__title">Surprise gift</h3>
+                        <span class="accessory__category">Accessory</span>
+                        <span class="accessory__preci">$7.99</span>
+                        <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a>
+                    </div>
+                </div>
+            </section> -->
+
+            <!--========== SEND GIFT ==========-->
+            <section class="send section">
+                <div class="send__container bd-container bd-grid">
+                    <div class="send__content">
+                        <h2 class="section-title-center send__title">Need more info?</h2>
+                        <p class="send__description">Drop your email, and we will contact you as soon as possible.</p>
+                        <form action="">
+                            <div class="send__direction">
+                                <input type="text" placeholder="Email address" class="send__input">
+                                <a href="#" class="button">Send</a>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="send__img">
+                        <img src="assets/images/home/send.png" alt="">
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer section">
+            <div class="footer__container bd-container bd-grid">
+                <div class="footer__content">
+                    <h3 class="footer__title">
+                        <a href="#" class="footer__logo">Portofolio Pages</a>
+                    </h3>
+                    <p class="footer__description">Make beautiful website <br> with us.</p>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Our Services</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Pricing</a></li>
+                        <li><a href="#" class="footer__link">Discounts</a></li>
+                        <li><a href="#" class="footer__link">Custom</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Our Company</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Blog</a></li>
+                        <li><a href="#" class="footer__link">About us</a></li>
+                        <li><a href="#" class="footer__link">Our mision</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Social</h3>
+                    <a href="https://www.linkedin.com/in/eldhorizcky" class="footer__social"><i class='bx bxl-linkedin '></i></a>
+                    <a href="https://www.github.com/eldhoral" class="footer__social"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.instagram.com/eldhorizcky/" class="footer__social"><i class='bx bxl-instagram-alt'></i></a>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; 2021 EldhoRizcky. All right reserved</p>
+        </footer>
+
+        <!--========== SCROLL REVEAL ==========-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="/js/home.js"></script>
+    </body>
+</html>
